@@ -14,7 +14,7 @@ interface Project {
       title: "Nemlig.com clone with unique features",
       description:
         "A full-stack e-commerce platform made with Nemlig.com for our exam project, featuring user authentication, product management, and shopping cart functionality.",
-      technologies: ["React", "TypeScript", "Node.js", "Express", "MySQL"],
+      technologies: ["React", "TypeScript", "Node.js", "Express", "MySQL", "Prisma"],
       githubLinks: {
         frontend: "https://github.com/osman-butt/nemlig-project-frontend-v2",
         backend: "https://github.com/osman-butt/nemlig-project-backend-v2",
