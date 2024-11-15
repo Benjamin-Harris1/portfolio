@@ -1,3 +1,7 @@
+import nemligImage from "../assets/nemlig.png"
+import restfulKinoImage from "../assets/restfulKino.png"
+import bigBowlImage from "../assets/bigbowlxp.png"
+
 interface Project {
     title: string;
     description: string;
@@ -19,7 +23,7 @@ interface Project {
         frontend: "https://github.com/osman-butt/nemlig-project-frontend-v2",
         backend: "https://github.com/osman-butt/nemlig-project-backend-v2",
       },
-      image: "/assets/nemlig.png",
+      image: nemligImage,
     },
     {
       title: "RESTful Kino",
@@ -29,7 +33,7 @@ interface Project {
         frontend: "https://github.com/kea-projects-gobs/restfulkino-frontend",
         backend: "https://github.com/kea-projects-gobs/restfulkino-backend",
       },
-      image: "/assets/restfulKino.png",
+      image: restfulKinoImage,
     },
     {
       title: "Big Bowl",
@@ -39,7 +43,7 @@ interface Project {
         frontend: "https://github.com/kea-projects-gobs/bigbowl-frontend",
         backend: "https://github.com/kea-projects-gobs/bigbowl-backend",
       },
-      image: "/assets/bigbowlxp.png",
+      image: bigBowlImage,
     },
   ];
 
