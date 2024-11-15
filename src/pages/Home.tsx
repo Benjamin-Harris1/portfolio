@@ -3,12 +3,12 @@ import { Terminal } from '../components/Terminal';
 
 export const Home = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center bg-gray-900 text-white">
+    <section className="h-full flex items-center justify-center bg-gray-900 text-white">
       <div className="container mx-auto px-6 py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-              Computer Science Student & <span className="text-blue-400">Backend Enthusiast</span>
+              Benjamin Harris <span className="text-blue-400">Computer Science Student</span>
             </h1>
             <p className="text-xl text-gray-300">
               Currently studying Computer Science at KEA. While I work across the full stack, 

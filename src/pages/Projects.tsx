@@ -2,9 +2,9 @@ import { projects } from "../data/projects";
 
 export const Projects = () => {
   return (
-    <section className="py-20 bg-gray-900 min-h-screen">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-white mb-12">Projects</h2>
+    <section className="bg-gray-900 h-full pt-32">
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl font-bold text-white mb-8">Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="space-y-2">
@@ -62,6 +62,7 @@ export const Projects = () => {
           ))}
         </div>
       </div>
+      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-gray-800 to-transparent"></div>
     </section>
   );
 };
