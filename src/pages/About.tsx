@@ -58,9 +58,9 @@ export const About = () => {
               <h3 className="text-xl font-semibold text-white mb-4">Approach</h3>
               <p>
                 As a student developer, I'm focused on learning and implementing best practices 
-                in my projects. I enjoy backend development and am particularly interested in 
-                understanding how to build efficient and secure applications. Each project is 
-                an opportunity to learn something new and improve my skills.
+                in my projects. I enjoy backend development and DevOps, particularly interested in 
+                building efficient, secure, and scalable applications. Each project is an opportunity to learn something new 
+                and improve my skills across the full development lifecycle.
               </p>
             </motion.div>
           </motion.div>
