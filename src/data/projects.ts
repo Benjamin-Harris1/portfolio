@@ -19,7 +19,7 @@ interface Project {
         frontend: "https://github.com/osman-butt/nemlig-project-frontend-v2",
         backend: "https://github.com/osman-butt/nemlig-project-backend-v2",
       },
-      image: "./public/nemlig.png",
+      image: "/nemlig.png",
     },
     {
       title: "RESTful Kino",
@@ -29,7 +29,7 @@ interface Project {
         frontend: "https://github.com/kea-projects-gobs/restfulkino-frontend",
         backend: "https://github.com/kea-projects-gobs/restfulkino-backend",
       },
-      image: "./public/restfulKino.png",
+      image: "/restfulKino.png",
     },
     {
       title: "Big Bowl",
@@ -39,7 +39,7 @@ interface Project {
         frontend: "https://github.com/kea-projects-gobs/bigbowl-frontend",
         backend: "https://github.com/kea-projects-gobs/bigbowl-backend",
       },
-      image: "./public/bigbowlxp.png",
+      image: "/bigbowlxp.png",
     },
   ];
 
