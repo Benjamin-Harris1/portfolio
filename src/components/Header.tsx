@@ -17,7 +17,7 @@ export const Header = () => {
 
   return (
     <header className="fixed w-full top-0 z-50 bg-gray-900 shadow-xl border-b border-gray-800">
-      <div className="container flex items-center justify-between px-6 py-8 mx-auto">
+      <div className={`container flex items-center justify-between ${isMenuOpen ? "" : "px-6 py-8"} md:px-6 md:py-8 mx-auto`}>
         <div className={`${isMenuOpen ? "hidden" : "flex"} md:flex items-center space-x-4`}>
           <a 
             href="https://github.com/Benjamin-Harris1"
@@ -55,7 +55,7 @@ export const Header = () => {
         <nav 
           className={`${
             isMenuOpen 
-              ? "absolute top-full left-0 right-0 bg-gray-900 p-4 shadow-lg" 
+              ? "absolute top-full left-0 right-0 bg-gray-900 p-4 shadow-lg border-b border-gray-800" 
               : "hidden"
           } md:block`}
         >
