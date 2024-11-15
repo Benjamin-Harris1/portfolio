@@ -1,6 +1,6 @@
-import nemligImage from "../assets/nemlig.png"
-import restfulKinoImage from "../assets/restfulKino.png"
-import bigBowlImage from "../assets/bigbowlxp.png"
+import nemligImage from "../assets/nemlig.PNG"
+import restfulKinoImage from "../assets/restfulKino.PNG"
+import bigBowlImage from "../assets/bigbowlxp.PNG"
 
 interface Project {
     title: string;
