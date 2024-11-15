@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Terminal } from '../components/Terminal';
 
-export default function Home() {
+export const Home = () => {
   return (
     <section className="relative h-screen flex items-center justify-center bg-gray-900 text-white">
       <div className="container mx-auto px-6 py-24">
