@@ -3,8 +3,8 @@ import { Terminal } from '../components/Terminal';
 
 export const Home = () => {
   return (
-    <section className="h-full flex items-center justify-center bg-gray-900 text-white">
-      <div className="container mx-auto px-6 py-24">
+    <section className="h-full flex bg-gray-900 text-white">
+      <div className="container mx-auto px-6 mt-40"> {/* Changed from padding to margin-top */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
@@ -47,8 +47,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-gray-800 to-transparent"></div>
     </section>
   );
 }
