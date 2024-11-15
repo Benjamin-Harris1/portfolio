@@ -15,7 +15,7 @@ interface Project {
 
   export const projects: Project[] = [
     {
-      title: "Nemlig.com clone with unique features",
+      title: "Nemlig.com clone",
       description:
         "A full-stack e-commerce platform made with Nemlig.com for our exam project, featuring user authentication, product management, and shopping cart functionality.",
       technologies: ["React", "TypeScript", "Node.js", "Express", "MySQL", "Prisma"],

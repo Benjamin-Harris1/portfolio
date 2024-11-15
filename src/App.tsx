@@ -4,9 +4,11 @@ import { Home } from "./pages/Home"
 import { Projects } from "./pages/Projects"
 import { About } from "./pages/About"
 import { Contact } from "./pages/Contact"
+import { useScrollToTop } from "./hooks/useScrollToTop"
 
 function App() {
-
+  useScrollToTop()
+  
   return (
     <Routes>
       <Route element={<MainLayout />}>
