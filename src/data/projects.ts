@@ -7,8 +7,9 @@ interface Project {
     description: string;
     technologies: string[];
     githubLinks: {
-      frontend: string;
-      backend: string;
+      frontend?: string;
+      backend?: string;
+      monorepo?: string;
     };
     image?: string;
   }
@@ -44,6 +45,14 @@ interface Project {
         backend: "https://github.com/kea-projects-gobs/bigbowl-backend",
       },
       image: bigBowlImage,
+    },
+    {
+      title: "DevOps course",
+      description: "This monorepo is from my DevOps course at KEA. It is a legacy project that I have been tasked to modernize, using many different DevOps tools.",
+      technologies: ["Docker", "React", "TypeScript", "C#", ".NET", "Prometheus", "Grafana"],
+      githubLinks: {
+        monorepo: "https://github.com/OBS-DevOps24/whoknows-legacy",
+      },
     },
   ];
 
